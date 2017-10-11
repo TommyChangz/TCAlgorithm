@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D231FDC1F8E5BA900918783 /* Algorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D231FDA1F8E5BA900918783 /* Algorithm.c */; };
+		6D6ECADD1F8E53E400340B65 /* TCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6ECADB1F8E53E400340B65 /* TCCollectionViewCell.m */; };
+		6D6ECADE1F8E53E400340B65 /* TCCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6ECADC1F8E53E400340B65 /* TCCollectionViewCell.xib */; };
 		6D84A7FB1F8E4E2D003283C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D84A7FA1F8E4E2D003283C0 /* AppDelegate.m */; };
 		6D84A7FE1F8E4E2D003283C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D84A7FD1F8E4E2D003283C0 /* ViewController.m */; };
 		6D84A8011F8E4E2D003283C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D84A7FF1F8E4E2D003283C0 /* Main.storyboard */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D231FDA1F8E5BA900918783 /* Algorithm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Algorithm.c; sourceTree = "<group>"; };
+		6D231FDB1F8E5BA900918783 /* Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		6D6ECADA1F8E53E400340B65 /* TCCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCCollectionViewCell.h; sourceTree = "<group>"; };
+		6D6ECADB1F8E53E400340B65 /* TCCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCCollectionViewCell.m; sourceTree = "<group>"; };
+		6D6ECADC1F8E53E400340B65 /* TCCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TCCollectionViewCell.xib; sourceTree = "<group>"; };
 		6D84A7F61F8E4E2D003283C0 /* TCAlgorithmsSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAlgorithmsSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D84A7F91F8E4E2D003283C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D84A7FA1F8E4E2D003283C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +70,11 @@
 				6D84A7FA1F8E4E2D003283C0 /* AppDelegate.m */,
 				6D84A7FC1F8E4E2D003283C0 /* ViewController.h */,
 				6D84A7FD1F8E4E2D003283C0 /* ViewController.m */,
+				6D6ECADA1F8E53E400340B65 /* TCCollectionViewCell.h */,
+				6D6ECADB1F8E53E400340B65 /* TCCollectionViewCell.m */,
+				6D6ECADC1F8E53E400340B65 /* TCCollectionViewCell.xib */,
+				6D231FDA1F8E5BA900918783 /* Algorithm.c */,
+				6D231FDB1F8E5BA900918783 /* Algorithm.h */,
 				6D84A7FF1F8E4E2D003283C0 /* Main.storyboard */,
 				6D84A8021F8E4E2D003283C0 /* Assets.xcassets */,
 				6D84A8041F8E4E2D003283C0 /* LaunchScreen.storyboard */,
@@ -132,6 +145,7 @@
 				6D84A8061F8E4E2D003283C0 /* LaunchScreen.storyboard in Resources */,
 				6D84A8031F8E4E2D003283C0 /* Assets.xcassets in Resources */,
 				6D84A8011F8E4E2D003283C0 /* Main.storyboard in Resources */,
+				6D6ECADE1F8E53E400340B65 /* TCCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D231FDC1F8E5BA900918783 /* Algorithm.c in Sources */,
 				6D84A7FE1F8E4E2D003283C0 /* ViewController.m in Sources */,
 				6D84A8091F8E4E2D003283C0 /* main.m in Sources */,
 				6D84A7FB1F8E4E2D003283C0 /* AppDelegate.m in Sources */,
+				6D6ECADD1F8E53E400340B65 /* TCCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +295,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAKGQLN5DT;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = TCAlgorithmsSummary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tommychang.TCAlgorithmsSummary;
@@ -292,6 +310,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAKGQLN5DT;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = TCAlgorithmsSummary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tommychang.TCAlgorithmsSummary;

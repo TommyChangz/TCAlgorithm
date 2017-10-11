@@ -85,7 +85,7 @@
     int array[] ={0,5,6,10,23,25,36,47};
     int mark = binarySearch(array, 8, 25);
     
-    printf("%d",mark);
+    printf("aim:%d",mark);
 }
 
 -(void)bubbleTest{
